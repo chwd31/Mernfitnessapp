@@ -12,6 +12,10 @@
     "web-vitals": "^2.1.4",
     "concurrently": "^6.2.0"
   },
+  "engines": {
+    "node": "16.13.0",
+    "npm": "8.1.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "cd client && react-scripts build",
