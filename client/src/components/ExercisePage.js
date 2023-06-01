@@ -34,7 +34,6 @@ const ExercisePage = () => {
 
       if (!token) {
         throw new Error('Not logged in');
-        console.log('error occurred saving exercise', error);
       }
 
       const { data } = await addExercise({
