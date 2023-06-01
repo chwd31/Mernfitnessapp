@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "apollo-client": "^2.6.10",
     "bootstrap": "^5.2.3",
     "jwt-decode": "^2.2.0",
     "react": "^16.13.1",
@@ -19,7 +20,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test"
   },
-  
   "browserslist": {
     "production": [
       ">0.2%",
