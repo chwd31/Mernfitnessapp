@@ -1,0 +1,128 @@
+/* app.css */
+
+/* Style for the navbar */
+.navbar {
+  background-color: #222;
+  padding: 10px;
+}
+
+.navbar a {
+  margin-right: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #bbb;
+}
+
+.navbar .logout-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Style for the footer */
+.footer {
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Style for the homepage */
+.homepage {
+  text-align: center;
+  padding: 20px;
+}
+
+.homepage h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.homepage p {
+  font-size: 16px;
+  color: #bbb;
+}
+
+/* Style for the exercise page */
+.exercise-page {
+  padding: 20px;
+}
+
+.exercise-page label {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.exercise-page input,
+.exercise-page select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.exercise-page button {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style for the profile page */
+.profile-page {
+  padding: 20px;
+}
+
+.profile-page label {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.profile-page input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Style for the weekly stats page */
+.weekly-stats-page {
+  padding: 20px;
+}
+
+.weekly-stats-page h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}

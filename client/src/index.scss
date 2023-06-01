@@ -1,0 +1,180 @@
+// index.scss
+
+// Apply a CSS reset to normalize styles across different browsers
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+// Set a base font size and font family
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+// Add some basic styles for links
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+// Add global styles for headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: bold;
+}
+
+// Add any other global styles as needed
+
+// Responsive Typography
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+// app.scss
+
+// Style for the navbar
+.navbar {
+  background-color: #222;
+  padding: 10px;
+
+  a {
+    margin-right: 10px;
+    color: #fff;
+    font-weight: bold;
+
+    &:hover {
+      color: #bbb;
+    }
+  }
+
+  .logout-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+// Style for the footer
+.footer {
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+
+  p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+  }
+}
+
+// Style for the homepage
+.homepage {
+  text-align: center;
+  padding: 20px;
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  p {
+    font-size: 16px;
+    color: #bbb;
+  }
+}
+
+// Style for the exercise page
+.exercise-page {
+  padding: 20px;
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
+
+// Style for the profile page
+.profile-page {
+  padding: 20px;
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+}
+
+// Style for the weekly stats page
+.weekly-stats-page {
+  padding: 20px;
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+}
+
+// Responsive Design
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
